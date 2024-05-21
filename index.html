@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <header>
+        
+        <nav>
+            <div class="logo">
+                <a href="index.html">Landing page</a>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li> <a href="">Contact</a></li>
+            </ul>
+            <div class="menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+               </div>   
+        </nav>
+        </header>
+    </div>
+    <h1 id="fsd">Full Stack Development</h1>
+   <div class="container">
+   <img src="fsd.jpg" alt="" height="300px" width="100%">
+    <p>Full stack development refers to the end-to-end application software development, including the front end and back end. The front end consists of the user interface, and the back end takes care of the business logic and application workflows.</p>
+    <a href="https://www.geeksforgeeks.org/what-is-full-stack-development/" target="_blank"><button>Learn more</button></a>
+</div>
+<h1>Full Stack Development Roadmap</h1>
+   <div id="fsdrd">
+    <img src="fsdrd.jpg" alt="" height="400px" width="100%"> 
+   </div>
+   <div id="fd">
+    <h2>Front-end developers</h2>
+    <div id="fd1">
+        <img src="fsdfd.webp" alt=""  height="300px" width="100%">
+    </div>
+    <div id="fd2">
+    <p>These developers handle the UI of a web application(or website) for example, visual effects, frames, navigation and forms. They focus maily on user experience and use HTML,CSS and JavaScript as programming languages.</p>
+    <a href="https://www.w3schools.com/whatis/whatis_frontenddev.asp"><button>Learn more</button></a>   
+    </div>
+</div>
+   <div id="bd">
+    <h2>Back-end Developers</h2>
+    <div id="bd1">
+        <img src="bd1.jpg" alt="" height="300px" width="100%">
+    </div>
+    <div id="bd2">
+    <p>They deal with the business logic, security, performance, scalability and handling request-response of the application. They create or use frameworks to design the core application workflows and use technologies like JavaScript, Python, Java and .NET.</p>
+    <a href="https://www.geeksforgeeks.org/backend-development/"><button>Learn more</button></a> 
+    </div> 
+</div>
+<div class="fsdads">
+    <div id="fsdad">
+        <h2>Full Stack Development Advantages</h2>
+        <ul>
+            <li>Complete ownership and understanding of the project.</li>
+            <li>Saves both project time and cost, and enhances productivity.</li>
+            <li>Faster bug fixing due to knowledge of complete system.</li>
+            <li>Easy knowledge transfer to other team members.</li>
+            <li>Better division of work amongest team members.</li>
+        </ul>
+       </div>
+       <div id="fsddad">
+        <h2>Full Stack Development Disadvantages</h2>
+        <ul>
+            <li>It has lack of scalability.</li>
+            <li>It has a limited memory size.</li>
+            <li>It is not flexible.</li>
+            <li>Unable to Copy & Paste.</li>
+        </ul>
+       </div>
+</div>
+   
+<div class="form">
+    <h1  id="con">Contact</h1>
+    <p id="formp">Feel free to reach out to me for any questions!</p>
+    <form action="">
+        <h2>Email Me</h2>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Your Name" required>
+        <input type="number" placeholder="Your Number" required>
+        <input type="textarea" id="msg" placeholder="Message">
+        <button>Send</button> 
+    </form>
+</div>
+   <footer>Design|Development By Ragavan</footer>
+   <script>
+    const menu=document.querySelector('.menu')
+    const menulist=document.querySelector('nav ul')
+    menu.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+</script>
+</body>
+</html>
